@@ -53,8 +53,6 @@ To run the Star Schema Benchmark implementation:
 cd test/
 
 # Generate the test generator / transformer binaries
-cd ssb/dbgen
-make
 cd ../loader
 make 
 cd ../../
