@@ -207,6 +207,7 @@ int main(int argc, char** argv)
         << ",\"time_probe\":" << t.time_probe
         << ",\"time_extra\":" << t.time_extra
         << ",\"time_join_total\":" << t.time_total
+        << ",\"throughput\":" << 1000.0/t.time_total*(num_dim+num_fact)*8.0/1024.0/1024.0/1024.0
         << "}" << endl;
   }
 
